@@ -36,8 +36,8 @@ For instance, when the sales department records a sale, the forecast demand may 
 ## How an MPS works
 - A master production schedule may be necessary for organizations to synchronize their operations and become more efficient. An effective MPS ultimately will:
 
-    - Give production, planning, purchasing, and management the information to plan and control manufacturing[3]
-    - Tie overall business planning and forecasting to detail operations[3]
+    - Give production, planning, purchasing, and management the information to plan and control manufacturing
+    - Tie overall business planning and forecasting to detail operations
     - Enable marketing to make legitimate delivery commitments to warehouses and customers
     - Increase the efficiency and accuracy of a company's manufacturing
     - Rough cut capacity planning
