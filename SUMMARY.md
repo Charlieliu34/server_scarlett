@@ -4,6 +4,6 @@
 * [Server](Server.md)
 * [Manufacturing Level](ManufacturingLevel.md)
 * [CPU](Von-Neumann-architecture.md)
-* [MPS](MPS.md)
+* [MPS & MRP](MPS.md)
 
 

@@ -50,4 +50,4 @@ For instance, when the sales department records a sale, the forecast demand may 
     - Schedule freezing
 
 
-# MRS (Material requirements planning)
+# MRP (Material requirements planning)
