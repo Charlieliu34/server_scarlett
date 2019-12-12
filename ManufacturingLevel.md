@@ -31,3 +31,5 @@ If you do have functional, performance, or reliability issues that are driving P
 
 ## Production Validation Test
 PVT is the “last build” — the units you are building are supposedly intended to be sold to customers, if they pass all of your test stations. PVT typically transitions directly into Ramp and Mass Production, or a Pilot build with no time gap.
+
+<p><a href="https://www.instrumental.com/blog/2016/11/14/hardware-engineers-speak-in-code-evt-dvt-pvt-decoded">Click reference</a></p>
