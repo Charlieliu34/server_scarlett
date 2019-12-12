@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · GitBook</title>
+        <title>CPU · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -59,8 +59,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Server.html" />
+    <link rel="next" href="MPS.html" />
     
+    
+    <link rel="prev" href="ManufacturingLevel.html" />
     
 
     </head>
@@ -89,7 +91,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -128,7 +130,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="Von-Neumann-architecture.html">
+        <li class="chapter active" data-level="1.4" data-path="Von-Neumann-architecture.html">
             
                 <a href="Von-Neumann-architecture.html">
             
@@ -184,7 +186,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >CPU</a>
     </h1>
 </div>
 
@@ -199,7 +201,29 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h1 id="cpu">CPU</h1>
+<ul>
+<li>&#x66AB;&#x5B58;&#x5668;(Register): &#x5C07;&#x8981;&#x904B;&#x7B97;&#x7684;&#x8CC7;&#x6599;&#xFF0C;&#x5F9E;&#x8A18;&#x61B6;&#x9AD4;&#x6293;&#x51FA;&#x4F86;&#x5F8C;&#xFF0C;&#x6703;&#x5148;&#x628A;&#x5B83;&#x66AB;&#x5B58;&#x5230; CPU &#x7684;&#x4E00;&#x500B;&#x7A7A;&#x9593;</li>
+<li>&#x7A0B;&#x5F0F;&#x8A08;&#x6578;&#x5668;: &#x662F;&#x4E00;&#x500B;&#x7279;&#x6B8A;&#x7684;&#x66AB;&#x5B58;&#x5668;&#xFF0C;&#x5C08;&#x9580;&#x7528;&#x4F86;&#x5B58;&#x653E;&#x4E0B;&#x4E00;&#x500B;&#x8981;&#x88AB;&#x57F7;&#x884C;&#x7684;&#x6307;&#x4EE4;</li>
+<li>&#x6240;&#x5728;&#x7684;&#x8A18;&#x61B6;&#x9AD4;&#x4F4D;&#x5740;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x53EB;&#x5B83; Instruction Address Register &#x6216; Instruction Counter&#x3002;
+&#x4F9D;&#x64DA;&#x4E0D;&#x540C;&#x67B6;&#x69CB;&#x7684; CPU &#xFF0C;&#x66AB;&#x5B58;&#x5668;&#x7684;&#x6578;&#x91CF;&#x6703;&#x4E0D;&#x540C;&#x3002;&#x50CF; ARM &#x548C; MIPS &#x67B6;&#x69CB;&#x7684;&#x8655;&#x7406;&#x5668;&#x88E1;&#x9762;&#x4FBF;&#x6709; 32 &#x500B;&#x66AB;&#x5B58;&#x5668;&#x3002;</li>
+<li>&#x5BEB;&#x5165;&#x8A18;&#x61B6;&#x9AD4;(memory write): &#x5C07;&#x904B;&#x7B97;&#x5B8C;&#x7684;&#x7D50;&#x679C;&#x9001;&#x56DE;&#x8A18;&#x61B6;&#x9AD4;&gt;&gt;&gt;&#x540C;&#x6642;&#x6839;&#x64DA;&#x300C;&#x7A0B;&#x5F0F;&#x8A08;&#x6578;&#x5668;&#xFF08;Program Counter, PC&#xFF09;&#x4E0A;&#x8A18;&#x8F09;&#x7684;&#x8A18;&#x61B6;&#x9AD4;&#x4F4D;&#x5740;&#xFF0C;&#x53D6;&#x5F97;&#x4E0B;&#x500B;&#x6307;&#x4EE4;</li>
+<li>&#x8981;&#x8A2D;&#x8A08; CPU &#x6642;&#xFF0C;&#x8981;&#x5236;&#x5B9A;&#x7684;&#x898F;&#x683C;&#x5C31;&#x662F;&#x300C;&#x6307;&#x4EE4;&#x96C6;&#x67B6;&#x69CB;&#x300D;&#xFF08;Instruction Set Architecture, ISA&#xFF09;&#x3002;&#x6307;&#x4EE4;&#x96C6;&#x67B6;&#x69CB;&#x5305;&#x542B;&#x4E86;&#xFF1A;<ul>
+<li>&#x6307;&#x4EE4;&#x96C6;</li>
+<li>&#x8A72;&#x6307;&#x4EE4;&#x96C6;&#x4F9D;&#x9644;&#x7684;&#x6A5F;&#x5668;&#x7D50;&#x69CB;&#x6558;&#x8FF0;&#xFF08;Hardware Information&#xFF09;</li>
+</ul>
+</li>
+</ul>
+<p><img src="Pic/CPU2.jpg" alt=""></p>
+<ul>
+<li>&#x6307;&#x4EE4;&#x96C6;&#x67B6;&#x69CB;&#xFF08;ISA&#xFF09;+ &#x99AE;&#x7D10;&#x66FC;&#x67B6;&#x69CB;&#xFF08;Von Neuman Machine&#xFF09;= &#x96FB;&#x8166;&#x57FA;&#x790E;&#x67B6;&#x69CB;&#xFF08;Basic Computer Structure&#xFF09;</li>
+</ul>
+<hr>
+<h2 id="cpu-ilm">CPU ILM</h2>
+<p>&#x9023;&#x63A5;&#x5668;&#x6263;&#x4EF6;ILM&#xFF08;Independent Loading Mechanism&#xFF09;&#x4E3B;&#x8981;&#x529F;&#x80FD;&#x5728;&#x65BC;&#x63D0;&#x4F9B;&#x6263;&#x58D3;&#x529B;&#x91CF;&#x7D66;&#x4E2D;&#x592E;&#x8655;&#x7406;&#x5668;CPU&#x53CA;&#x6563;&#x71B1;&#x5668;&#x4EE5;&#x78BA;&#x4FDD;CPU&#x8207;&#x9023;&#x63A5;&#x5668;&#x96FB;&#x6027;&#x63A5;&#x89F8;&#x826F;&#x597D;&#x4E26;&#x78BA;&#x4FDD;&#x6563;&#x71B1;&#x5668;&#x8207;CPU&#x6709;&#x826F;&#x597D;&#x71B1;&#x50B3;&#x63A5;&#x89F8;&#x3002;</p>
+<h2 id="cpu-&#x80CC;&#x677F;">CPU &#x80CC;&#x677F;</h2>
+<h2 id="cpu-socket">CPU socket</h2>
+
                                 
                                 </section>
                             
@@ -226,8 +250,12 @@
 
             
                 
+                <a href="ManufacturingLevel.html" class="navigation navigation-prev " aria-label="Previous page: Manu(facturing Level">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="Server.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Server">
+                
+                <a href="MPS.html" class="navigation navigation-next " aria-label="Next page: MPS">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -238,7 +266,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Server","level":"1.2","depth":1,"path":"Server.md","ref":"Server.md","articles":[]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-12-11T06:02:01.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-12T07:40:02.205Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CPU","level":"1.4","depth":1,"next":{"title":"MPS","level":"1.5","depth":1,"path":"MPS.md","ref":"MPS.md","articles":[]},"previous":{"title":"Manu(facturing Level","level":"1.3","depth":1,"path":"ManufacturingLevel.md","ref":"ManufacturingLevel.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Von-Neumann-architecture.md","mtime":"2019-12-12T05:41:22.793Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-12T07:40:02.205Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
