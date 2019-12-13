@@ -19,6 +19,8 @@ Level 11 manufacturer (like AMAX):</font>
 - Level 11: Node-level assembly, testing, OS/software loading of all server nodes followed by rack cabinet assembly of nodes into racks with full cable networking (including switches), and tested as a working total solution at the rack or multi-rack level.
 - Level 12: Rack to multi-rack level manufacturing featured in Level 11 including all networking with full software loading, validation and optimization. This may include but is not limited to cluster management, cloud OS (such as OpenStack) and networking software.
 
+---
+
 
 # Phase- EVT, DVT, PVT, MP
 ## Engineering validation test
@@ -37,3 +39,10 @@ PVT is the “last build” — the units you are building are supposedly intend
 PVT flows immediately into the phase of the program called Ramp, where parallel assembly lines are being brought up to increase daily output volume. Mass Production is a superset of Ramp and the sustaining production that follows.
 
 <p><a href="https://www.instrumental.com/blog/2016/11/14/hardware-engineers-speak-in-code-evt-dvt-pvt-decoded">Click reference</a></p>
+
+# RYG
+
+假設指定到料 1231，
+R就是沒有交期就是TBC，或是交期1231以後
+Y就是還沒到料，但是在1231以前
+G就是已經到廠了，收到料了
